@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Footer, Header } from './components';
 import { AppRouter } from './router/AppRouter';
 import { useLocation } from 'react-router-dom';
-import  appFirebase  from '../src/services/firebaseConfig'
+import  appFirebase  from './services/firebaseConfig'
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 const auth =getAuth(appFirebase)
